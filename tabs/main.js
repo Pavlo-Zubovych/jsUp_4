@@ -37,10 +37,11 @@ tabs.addEventListener('click', (e) => {
 });
 
 tabs2.addEventListener('click', (e) => {
-  console.log('click');
+  // console.log('click');
   const currTab2 = e.target.dataset.btn2;
   chengeClass2(e.target);
   //   console.log(e.target);
+  // console.log(content2.length);
 
   for (let i = 0; i < content2.length; i++) {
     content2[i].classList.remove('active');
