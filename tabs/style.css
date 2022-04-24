@@ -65,3 +65,7 @@ h1 {
 .content.active {
     display: block;
 }
+
+.content2.active {
+    display: block;
+}
